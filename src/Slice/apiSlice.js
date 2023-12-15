@@ -4,7 +4,7 @@ export const expenseApi = createApi({
   reducerPath: 'expenseApi',
   tagTypes: ['incomedetails','expensedetails'],
   baseQuery: fetchBaseQuery({
-    baseUrl: 'http://localhost:5000/',
+    baseUrl: 'https://json-api-m5z2.onrender.com/',
   }),
   endpoints: (builder) => ({
     GetIncome: builder.query({

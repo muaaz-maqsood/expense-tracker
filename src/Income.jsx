@@ -4,7 +4,7 @@ import { useGetIncomeQuery, useDeleteIncomeMutation } from './Slice/apiSlice';
 
 const Income = () => {
     const {data} = useGetIncomeQuery()
-    console.log(data);
+    console.log(data , 'get data');
     const [deleteIncome] = useDeleteIncomeMutation()
 
     const handelDelete = (id) => {

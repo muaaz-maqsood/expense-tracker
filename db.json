@@ -1,8 +1,48 @@
 {
   "income": [
-    
+    {
+      "type": "Income",
+      "category": "8998",
+      "amount": "8989",
+      "date": "15-12-2023",
+      "id": 1
+    },
+    {
+      "type": "Income",
+      "category": "",
+      "amount": "678",
+      "date": "15-12-2023",
+      "id": 2
+    }
   ],
   "expense": [
-  
+    {
+      "type": "Expense",
+      "category": "8998",
+      "amount": "7878",
+      "date": "15-12-2023",
+      "id": 1
+    },
+    {
+      "type": "Expense",
+      "category": "house",
+      "amount": "6786789",
+      "date": "15-12-2023",
+      "id": 2
+    },
+    {
+      "type": "Expense",
+      "category": "Food",
+      "amount": "200",
+      "date": "15-12-2023",
+      "id": 3
+    },
+    {
+      "type": "Expense",
+      "category": "Food",
+      "amount": "200",
+      "date": "15-12-2023",
+      "id": 4
+    }
   ]
 }

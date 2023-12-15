@@ -4,6 +4,7 @@ import { useCreateIncomeMutation,useCreateExpenseMutation,useGetIncomeQuery, use
 
 const Main = () => {
     const [createIncome, resIncomeInfo] = useCreateIncomeMutation();
+    console.log(resIncomeInfo , 'res income');
     const [createExpense, resExpenseInfo] = useCreateExpenseMutation();
     const {data:incomeData} = useGetIncomeQuery()
     const {data:expenseData} = useGetExpenseQuery()
